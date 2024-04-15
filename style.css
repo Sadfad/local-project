@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: url("bgck.jpg");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+}
+
+.div {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    border: 0px solid black;
+    border-spacing: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 8%;
+    left: 2%;
+}
+
+
+.h3:hover{
+    text-shadow: 0px 0px 5px black;
+    transition: all 0.4s;
+    font-size: 25px;
+    color: white;
+}
+
+.h4:hover{
+    text-shadow: 0px 0px 5px black;
+    transition: all 0.4s;
+    font-size: 25px;
+    color: white;
+}
+
+.h5:hover{
+    text-shadow: 0px 0px 5px black;
+    transition: all 0.4s;
+    font-size: 25px;
+    color: white;
+}
+
+
+.h3 {
+    text-shadow: 0px 0px 5px white; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    background: transparent;
+    font-size: 22px;
+    color: black;
+    position: absolute;
+    left: 65%;
+    top: 25%;
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+.h4 {
+    text-shadow: 0px 0px 5px white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    top: 25%;
+    left: 72%;
+    position: absolute;
+    background: transparent;
+    color: black;
+    font-size: 15px;
+ 
+}
+
+.h5 {
+    text-shadow: 0px 0px 5px white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    top: 25% ;
+    left: 80%;
+    position: absolute;
+    font-size: 22px;
+    color: black;
+    background: transparent;
+   
+
+    
+}
+
+
+.div2 {
+    border-radius: 20px 20px;
+    width: 700px;
+    height: 450px;
+    position: absolute;
+    top: 23%;
+    border: 1px solid gray;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    left: 23%;
+}
+
+.h1 {
+    position: absolute;
+    top: 5%;
+    left: 42%;
+    text-shadow: 0px 0px 5px black;
+    background: transparent;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+input {
+    border-radius: 20px 20px;
+    text-shadow: 0px 0px 5px white;
+    font-size: 15px;
+    color: white;
+    width: 320px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 50px;
+    border-color: black;
+    outline: none;
+    background: transparent;
+}
+
+
+.inpus {
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 28%;
+}
+
+
+.inppas {
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 28%;
+}
+
+.chk {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    border: none;
+    outline: none;
+}
+
+
+.p1 {
+    text-shadow: 0px 0px 5px white;
+    font-size: 15px;
+    position: absolute;
+    top: 74%;
+    left: 55%;
+    background: transparent;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+.p1:hover {
+    transition: all 0.2s;
+    color: black;
+}
+
+::placeholder {
+    color: white;
+    position: absolute;
+    left: 5%;
+}
+
+button {
+    text-shadow: 0px 0px 5px white;
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    background: transparent;
+    position: absolute;
+    top: 85%;
+    left: 32%;
+    font-size: 19px;
+    border-radius: 20px 20px;
+}
+
+
+button:hover {
+    transition: all 0.5s;
+    background-color: #000000A0;
+}
+
+.user{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    color: black;
+    left: 22%;
+    top: 37%;
+    background: transparent;
+}
+
+.lock{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    color: black;
+    left: 22%;
+    top: 58%;
+    background: transparent;
+}
+
+
+.tt{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    color: white;
+    left: 8%;
+    top: 85%;
+    background: transparent;
+}
+
+
+.tg{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    color: white;
+    left: 15%;
+    top: 85%;
+    background: transparent;
+
+}
